@@ -143,7 +143,7 @@ Simply cut and paste this program into a file, then run it.
 
 The **"1/2 thumb rule"** predicts that the best performance of a Markov Chain Monte Carlo algorithm is for an acceptance ratio of approximately 1/2: half the moves are accepted, and half of them are rejected. Download the program markov_pi.py from the coursera website, and modify it so that it computes the acceptance rate. You may do a single run for n_trials = 2^12. Simply run this program for delta = 0.062, 0.125, 0.25, 0.5, 1.0, 2.0, 4.0.
 
-* Write down the acceptance rates you find for the different values of delta from, each time, a single run of the modified markov_pi.py. The acceptance rates should be between 0 and 1. Simply make a table as follows in your answering box.
+* Write down the acceptance rates you find for the different values of delta from, each time, a single run of the modified markov_pi.py. The acceptance rates should be between 0 and 1. Simply **fill in the table bellow**.
 
 ```
 delta | acceptance rate
@@ -157,7 +157,8 @@ delta | acceptance rate
 ```
 
 * Compare with the results of Section **B1**, do you confirm that an acceptance rate of approximately 1/2 gives the best results?
-** insert your answer here **
+
+**insert your answer here**
 
 ## C
 
