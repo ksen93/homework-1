@@ -49,7 +49,8 @@ pylab.show()
 Simply cut and paste this program into a file, then run it.
 
 * Save the plot as a graphics file (normally, in png format). 
-** insert your answer here **
+
+**insert your answer here**
 
 ## A2
 
@@ -63,10 +64,12 @@ Run the modified program.The function should nicely fit the experimental data.
 ## A2 (continued)
 
 * Explain where in the program you added the above line.
-** insert your answer here **
+
+**insert your answer here **
 
 * Explain in a few words why one can say that the "error" of the direct_pi calculation goes like 1.642 / sqrt(N_trials) (maybe explain what that means at n_trials = 100). Does the "error" of the direct-sampling algorithm go to zero as N_trials goes to infinity?
-** insert your answer here **
+
+**insert your answer here **
 
 ## B
 
@@ -119,18 +122,22 @@ pylab.show()
 Simply cut and paste this program into a file, then run it.
 
 * Upload the new plot as a graphics file (normally, in png format).
-** insert your answer here **
+
+**insert your answer here **
 
 ## B1 (continued):
 
 * Which of the values of delta gives the most precise results?
-** insert your answer here **
+
+**insert your answer here **
 
 * Explain why VERY small values of delta and VERY large values of delta yield a less precise result than intermediate values.
-** insert your answer here **
+
+**insert your answer here **
 
 * Explain in a few words why the error is larger than for the direct sampling algorithm, even for the optimal value of delta.
-** insert your answer here **
+
+**insert your answer here **
 
 ## B2
 
@@ -178,7 +185,8 @@ print 4.0 * n_hits / float(n_trials), math.sqrt(var / n_trials)
 ```
 
 * Write down your value for the standard deviation that you found from a single run of this modified version of direct_pi.py.
-** insert your answer here **
+
+**insert your answer here **
 
 ## C2
 
@@ -192,9 +200,13 @@ Modify the program from Section C1 so that it not only estimates the mean value 
 
 * Upload your modified program, where a few added lines compute <Obs> and <Obs^2>, <Obs^2> - <Obs>^2, and its square root.
 
+**insert your answer here **
+
 ## C2 (continued):
 
 * Write down your value for the standard deviation, obtained from a single run of the modified direct_pi.py. It should be close to 1.642.
+
+**insert your answer here **
 
 NB: This procedure for computing the standard deviation can be used quite generally for direct-sampling Monte Carlo algorithms. The error is quite generally given by the ratio of the standard deviation and the square root of the number of samples.
 
@@ -254,14 +266,17 @@ pylab.show()
 The program produces a plot of naive (apparent) error against the iteration of the bunching procedure.The observed error is found to increase with the iterations, then exhibits a plateau (to see this you may have to run the program several times). This plateau is an excellent estimation of the true error of a single Markov chain output. Run this program, then
 
 * Upload the plot you obtained (usually in png format).
-** insert your answer here **
+
+**insert your answer here **
 
 ## C3 (continued):
 
 * Explain in a few words why the apparent error initially increases with the iterations, then saturates (more or less) to a plateau.
-** insert your answer here **
+
+**insert your answer here **
 
 * The program outputs the mean value (which does not change with iteration), the Monte Carlo evaluation pi^est of pi. Compare the absolute value of (pi^est - pi) with the plateau error. Are they similar?
-** insert your answer here **
+
+**insert your answer here **
 
 NB: For your own interest, you can rerun this program for different values of N_trial and delta, to understand the robustness of the error evaluation. It is also very interesting to modify in the bunching algorithm the function markov_pi_all_data into a function direct_pi_all_data. You will then see a very large plateau, from the first iteration on.
